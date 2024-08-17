@@ -1,0 +1,80 @@
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        .header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        .user-info {
+            background-color: #ddd;
+            padding: 10px;
+            text-align: center;
+        }
+        .blog-post {
+            max-width: 700px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+        }
+        .blog-post h2 {
+            margin-top: 0;
+        } 
+        .styled-button {
+            background-color: #4CAF50; /* Green */
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 12px;
+            transition-duration: 0.4s;
+        }
+
+        .styled-button:hover {
+            background-color: white;
+            color: black;
+        }
+    
+        .form-container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+        .form-container h2 {
+            margin-top: 0;
+        }
+        .form-container input[type=email], .form-container input[type=password] , input[type=text] {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+        .form-container button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+        }
+        .form-container button:hover {
+            opacity: 0.8;
+        }
+        #signupForm {
+            display: none;
+        }
